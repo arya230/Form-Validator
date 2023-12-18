@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
+    font-family:sans-serif;
     
 }
 
@@ -13,7 +14,7 @@ body {
     margin: 5% auto;     
     height: 70vh;
     width: 25vw;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 .main-container > h2 {
@@ -44,8 +45,20 @@ form {
     padding-left: 50px;
 }
 .form-example > input {
+    border: 2px solid whitesmoke;    
     margin: 0 auto;
     width: 75%;
     height: 30px;
+}
+input: {
+    border-color: aquamarine;
+}
+
+.btn {
+    margin: 10px auto;
+    width: 75%;
+    height: 40px;
+    background-color: blue;
+    color: white;
 }
 
